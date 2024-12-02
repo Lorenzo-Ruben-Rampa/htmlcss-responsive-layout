@@ -1,0 +1,244 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(233, 232, 232);
+}
+
+/* Fonts */
+
+@font-face {
+    font-family: 'Nerko-One';
+    src: url(../font/NerkoOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Helvetica-Neue';
+    src: url(../font/HelveticaNeueBlack.otf);
+}
+
+@font-face {
+    font-family: 'Monserrat';
+    src: url(../font/Montserrat-VariableFont_wght.ttf);
+}
+
+h1 {
+    color: orange;
+    font-family: "Nerko-One", cursive;
+    font-weight: 400;
+    font-style: normal;
+   }
+
+.testo {
+    display: inline;
+    font-family: "Monserrat";
+    font-size: 12px;
+}
+
+.grigio {
+    color: gray;
+}
+
+.bold {
+    font-weight:bolder;
+    color: black;
+    display: inline;
+}
+
+p {
+    line-height: 1.6;
+}
+  
+/* Intestazione */
+
+header {
+    text-align: center;
+}
+
+/* Sezioni */
+
+.tablet-title {
+    display: none;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+
+.Tiramisu {
+    font-family: "Helvetica-Neue";
+    font-weight: 600;
+    color: rgb(87, 6, 163); 
+    margin-top: 8px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-family: "Monserrat";
+    font-weight: 400;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+}
+
+.text-container {
+    background-color: white;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+}
+
+.riga {
+    margin-bottom: 10px;
+}
+
+h3 {
+    margin-bottom: 30px;
+}
+
+.barra-icone {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.icona-azzurra {
+    color: rgb(30, 194, 248);
+}
+
+.icona-rossa {
+    color: red;
+}
+
+.icona-rosa {
+    color: #C13584;
+}
+
+.icona-blue {
+    color: blue;
+}
+
+.button {
+    border: none;
+    padding: 15px;
+    background-color: white;
+    display: inline-block;
+    border-radius: 45%;
+}
+
+/* Sezione Presentazione */
+
+.col {
+    width: 20%;
+    height: 100px;
+}
+
+.sx {
+    border-top: 2px solid orange;
+    margin-right: 10px;
+}
+
+.container-image {
+    width: 60%;
+    margin-bottom: 10px;
+}
+
+.presentazione {
+    display: flex;
+    margin-top: 10px;
+}
+
+.container-presentazione {
+    padding-bottom: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+img {
+    width: 100%;
+    padding-top: 15px;
+}
+
+/* Piè di pagina */
+
+footer {
+    background-color: blueviolet;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.container-testo-footer {
+    color: white;
+}
+
+.link-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.grassetto {
+    font-weight: bold;
+}
+
+a {
+    color: white;
+}
+
+.link-footer {
+    width: 24%;
+    padding: 10px;
+}
+
+/************************************************
+    SOLUZIONE RESPONSIVE
+ ************************************************/
+
+ /* Tablet */
+
+ @media screen and (max-width:768px) and (min-width:991px) {
+
+    .Tiramisu {
+        display: none;
+    }
+
+    .tablet-title {
+        font-family: "Helvetica-Neue";
+        font-weight: 600;
+        font-size: 60px;
+        color: rgb(87, 6, 163); 
+        margin-top: 8px;
+        margin-bottom: 20px;
+    }
+
+    }
+
+
+ /* Desktop */
+
+ @media screen and (min-width:992px) {
+
+ }
+
+ /* Large Mobile */
+
+ @media screen and (max-width:767px) and (min-width:576px) {
+
+
+ }
