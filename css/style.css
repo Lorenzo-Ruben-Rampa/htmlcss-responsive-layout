@@ -302,7 +302,6 @@ a {
         margin-right: 10px;
         width: 40%;
         }
-        
 
     /* Footer */
 
@@ -494,5 +493,29 @@ a {
 
  @media screen and (max-width:767px) and (min-width:576px) {
 
+    .container-image {
+        float:left;
+        margin-top: 20px;
+    }
+
+    .container-presentazione::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    .col {
+        width: 10%;
+        margin-right: 10px;
+    }
+
+    .testo-presentazione {
+        margin-top: 15px; 
+    }
+
+    .container-image {
+        margin-right: 10px;
+        width: 20%;
+        }
 
  }
